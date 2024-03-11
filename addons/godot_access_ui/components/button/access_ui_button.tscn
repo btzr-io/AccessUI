@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://bjnjxnjvs6yj1"]
+
+[node name="AccessUIButton" type="Button"]
+text = "3"

@@ -1,0 +1,29 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="GodotAccessUI"
+run/main_scene="res://test.tscn"
+config/features=PackedStringArray("4.2", "Forward Plus")
+config/icon="res://icon.svg"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/godot_access_ui/plugin.cfg")
+
+[filesystem]
+
+import/blender/enabled=false
+import/fbx/enabled=false
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
